@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d60846d973a46c4bb87441a800d5f91, type: 3}
+  m_Name: IAPConfigData
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 174381bdd69760f4594af6801e3542dd, type: 3}
+  packDatas:
+    packs:
+    - PackID: weup.ww2.duty.frontline.zone.removeads
+      Price: 1,99
+      PackName: Remove Ads
+      Items:
+      - Key: RemoveAds
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.ddayoffer
+      Price: 3,99
+      PackName: D-Day Offer
+      Items:
+      - Key: RemoveAds
+        Value: 1
+      Weapons:
+      - Key: 0_4
+        Value: 1
+      Crates:
+      - Key: LargeCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.sgt
+      Price: 4,99
+      PackName: D-Day Offer
+      Items:
+      - Key: RemoveAds
+        Value: 1
+      Weapons: []
+      Crates:
+      - Key: LargeCrate
+        Value: 1
+      Soldier:
+      - Key: 1
+        Value: 1
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.goldoffer1
+      Price: 2,99
+      PackName: D-Day Offer
+      Items:
+      - Key: Gold
+        Value: 225
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.goldoffer2
+      Price: 4,99
+      PackName: D-Day Offer
+      Items:
+      - Key: Gold
+        Value: 575
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.goldoffer3
+      Price: 9,99
+      PackName: D-Day Offer
+      Items:
+      - Key: Gold
+        Value: 1500
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.cashoffer1
+      Price: 0,99
+      PackName: D-Day Offer
+      Items:
+      - Key: Cash
+        Value: 10000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.cashoffer2
+      Price: 1,99
+      PackName: D-Day Offer
+      Items:
+      - Key: Cash
+        Value: 25000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.cashoffer3
+      Price: 2,99
+      PackName: D-Day Offer
+      Items:
+      - Key: Cash
+        Value: 50000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.cashoffer4
+      Price: 4,99
+      PackName: D-Day Offer
+      Items:
+      - Key: Cash
+        Value: 75000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.cashoffer5
+      Price: 9,99
+      PackName: D-Day Offer
+      Items:
+      - Key: Cash
+        Value: 200000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.weaponoffer1
+      Price: 1,99
+      PackName: D-Day Offer
+      Items: []
+      Weapons:
+      - Key: 0_10
+        Value: 1
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.weaponoffer2
+      Price: 0,99
+      PackName: D-Day Offer
+      Items: []
+      Weapons:
+      - Key: 0_5
+        Value: 1
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.weaponoffer3
+      Price: 1,99
+      PackName: D-Day Offer
+      Items: []
+      Weapons:
+      - Key: 1_5
+        Value: 1
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.weaponoffer4
+      Price: 0,99
+      PackName: D-Day Offer
+      Items: []
+      Weapons:
+      - Key: 0_11
+        Value: 1
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.weaponoffer5
+      Price: 0,99
+      PackName: AK 47
+      Items: []
+      Weapons:
+      - Key: 0_6
+        Value: 1
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.weaponoffer6
+      Price: 0,99
+      PackName: 'PPSH-41Motherland  '
+      Items: []
+      Weapons:
+      - Key: 0_9
+        Value: 1
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.ak47golden
+      Price: 3,99
+      PackName: 'AK Golden pack              '
+      Items:
+      - Key: RemoveAds
+        Value: 1
+      Weapons:
+      - Key: 0_10
+        Value: 1
+      Crates:
+      - Key: SmallCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.starterpack
+      Price: 2,99
+      PackName: 'AK Golden pack              '
+      Items:
+      - Key: Card_0_0
+        Value: 100
+      - Key: Cash
+        Value: 12000
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    - PackID: weup.ww2.duty.frontline.zone.endlessoffer
+      Price: 0,99
+      PackName: Endless Offer 1
+      Items:
+      - Key: Gold
+        Value: 100
+      - Key: Grenade
+        Value: 5
+      - Key: MedKit
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 172800
+    - PackID: weup.ww2.duty.frontline.zone.endlessoffer1
+      Price: 2,99
+      PackName: Endless Offer 2
+      Items:
+      - Key: Gold
+        Value: 120
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 172800
+    - PackID: weup.ww2.duty.frontline.zone.endlessoffer2
+      Price: 4,99
+      PackName: Endless Offer 3
+      Items:
+      - Key: Gold
+        Value: 250
+      - Key: Cash
+        Value: 7000
+      Weapons: []
+      Crates:
+      - Key: LargeCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 172800
+    - PackID: weup.ww2.duty.frontline.zone.battlepasspremium
+      Price: 3,99
+      PackName: Endless Offer 3
+      Items: []
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 2419200
+    itemOfferCooldown: 300
+    crateOfferCooldown: 300

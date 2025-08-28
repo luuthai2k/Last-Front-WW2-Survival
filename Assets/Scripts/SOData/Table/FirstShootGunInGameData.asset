@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3525a5fdf8f97d49938dd2d256c35ef, type: 3}
+  m_Name: FirstShootGunInGameData
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 2496341adf2004c4486fdf58c88be47c, type: 3}
+  WeaponInGameDatas:
+  - ID: Winchester_Model_1897
+    weaponType: 1
+    isOwned: 0
+    level: 1
+    unlockLevel: 0
+    specification:
+      damage: 144
+      magazine: 5
+      fireRate: 40
+    cards: 0
+  - ID: Remington_870
+    weaponType: 1
+    isOwned: 0
+    level: 1
+    unlockLevel: 0
+    specification:
+      damage: 248
+      magazine: 6
+      fireRate: 100
+    cards: 0
+  - ID: Tactical_RMT_900
+    weaponType: 1
+    isOwned: 0
+    level: 1
+    unlockLevel: 0
+    specification:
+      damage: 500
+      magazine: 8
+      fireRate: 200
+    cards: 0

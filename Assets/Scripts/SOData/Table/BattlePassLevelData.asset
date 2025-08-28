@@ -1,0 +1,736 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e634b6b5c226d2342a4e002ba0a273e3, type: 3}
+  m_Name: BattlePassLevelData
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 0b060a6b1be855b469bb94f4f2592953, type: 3}
+  battlePassLevelDatas:
+  - level: 1
+    xpRequired: 0
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 2
+    xpRequired: 50
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 2
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 
+      Soldier: []
+      packLifeTime: 0
+  - level: 3
+    xpRequired: 50
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 10
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 4
+    xpRequired: 50
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Grenade
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 1250
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 5
+    xpRequired: 70
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 500
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 
+      Soldier: []
+      packLifeTime: 0
+  - level: 6
+    xpRequired: 70
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 10
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 7
+    xpRequired: 70
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Grenade
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 8
+    xpRequired: 80
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 500
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 9
+    xpRequired: 70
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 2
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+  - level: 10
+    xpRequired: 100
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Grenade
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 11
+    xpRequired: 100
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 1500
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 12
+    xpRequired: 100
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 750
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 10
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 13
+    xpRequired: 100
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Grenade
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 14
+    xpRequired: 100
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+  - level: 15
+    xpRequired: 120
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 16
+    xpRequired: 120
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 750
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Metal
+        Value: 5000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 17
+    xpRequired: 120
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 10
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 18
+    xpRequired: 120
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Grenade
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+  - level: 19
+    xpRequired: 120
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 20
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 1000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 10
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 21
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 1500
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 22
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Grenade
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+  - level: 23
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 15
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 24
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 1000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Metal
+        Value: 5000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 25
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Grenade
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 26
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Grenade
+        Value: 1
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+  - level: 27
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: SmallCrate
+        Value: 
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Metal
+        Value: 7500
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 28
+    xpRequired: 130
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 10
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: MedKit
+        Value: 5
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 29
+    xpRequired: 140
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Cash
+        Value: 2000
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items:
+      - Key: Gold
+        Value: 20
+      Weapons: []
+      Crates: []
+      Soldier: []
+      packLifeTime: 0
+  - level: 30
+    xpRequired: 150
+    freeRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: MediumCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0
+    vipRewards:
+      PackID: 
+      Price: 
+      PackName: 
+      Items: []
+      Weapons: []
+      Crates:
+      - Key: LargeCrate
+        Value: 1
+      Soldier: []
+      packLifeTime: 0

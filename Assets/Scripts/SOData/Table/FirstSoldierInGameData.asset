@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54a92c449047c9478fc035a8f83715a, type: 3}
+  m_Name: FirstSoldierInGameData
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 04baab4c7cb8093499fd2812197dfcd9, type: 3}
+  SoldierInGameDatas:
+  - ID: Private_Johns
+    isOwned: 1
+    level: 1
+    unlockLevel: 0
+    soldierStat:
+      health: 150
+      handStability: 80
+      reloadSpeed: 100
+  - ID: SGT_Winters
+    isOwned: 0
+    level: 1
+    unlockLevel: 0
+    soldierStat:
+      health: 200
+      handStability: 100
+      reloadSpeed: 130
+  - ID: General_Austin
+    isOwned: 0
+    level: 1
+    unlockLevel: 0
+    soldierStat:
+      health: 400
+      handStability: 120
+      reloadSpeed: 175
